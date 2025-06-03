@@ -9,4 +9,4 @@ scipy>=1.7
 kmodes>=0.12
 streamlit-option-menu>=0.3.6
 xlsxwriter>=3.0
-
+openpyxl==3.1.2
