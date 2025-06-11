@@ -59,9 +59,14 @@ with st.sidebar:
         default_index=0
     )
 
-
-st.title("🏠 Pengelompokan Calon Penerima Bantuan Rehabilitasi Rutilahu Kota Surabaya")
-
+# Title and Subtitle (centered)
+st.markdown(
+    """
+    <h1 style='text-align: center;'>🏡 Rutilahu SmartCluster App</h1>
+    <h3 style='text-align: center;'>Pengelompokan Calon Penerima Bantuan Rehabilitasi Rutilahu Kota Surabaya</h3>
+    """,
+    unsafe_allow_html=True
+)
 
 if selected == "Home":
     st.markdown(
